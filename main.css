@@ -1,0 +1,361 @@
+/* @import url('https://fonts.googleapis.com/css?family=Raleway:300,400'); */
+@import url('https://fonts.googleapis.com/css?family=Quattrocento+Sans');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+    text-shadow: 0 0.0625rem 0.1875rem rgb(0 0 0 / 80%);
+    scroll-behavior: smooth;
+}
+
+/* html {
+    box-sizing: border-box;
+    font-family: 'Quattrocento Sans', sans-serif;
+    color: white;
+    text-shadow: 0 0.0625rem 0.1875rem rgb(0 0 0 / 80%);
+    scroll-behavior: smooth;
+} */
+
+html, body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+hr {
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid #C896D7;
+}
+
+#about, #projects, #contact {
+    background-color:rgb(27, 27, 27);
+    min-height: 100%;
+}
+
+.container {
+    min-height: 100%;
+    width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+}
+
+.main-nav {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 1.5vh;
+}
+
+.main-nav a {
+    padding: 1.5rem;
+    font-size: 1.2rem;
+}
+
+.nav ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline;
+}
+
+.nav a {
+    display: inline-block;
+    text-decoration: none;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.nav a:hover {
+    color: rgb(240, 166, 255);
+    /* background-color: rgba(126, 124, 124, 0.5); */
+}
+
+.main-header {
+    background-image: url(images/boston-updated.jpg);
+    background-color: rgb(128, 128, 128);
+    background-blend-mode: multiply;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 98.5vh;
+    font-weight: bold;
+    width: 100%;
+}
+
+.home-name {
+    text-align: center;
+    margin: 0;
+    font-size: 8rem;
+}
+
+.home-info {
+    font-size: 2rem;
+}
+
+.pic-credit {
+    font-size: 1.5rem;
+}
+
+.header-contact {
+    display: inline;
+}
+
+.contact-logo {
+    text-align: center;
+}
+
+/* Contact logo size */
+.fas, .fab {
+    font-size: 3.5rem;
+}
+
+.fas:hover {
+    color: #C896D7;
+}
+
+.fab:hover {
+    color: #C896D7;
+}
+
+.contact-logo ul {
+    padding: 0;
+}
+
+.contact-logo li {
+    display: inline;
+    list-style-type: none;
+}
+
+.contact-logo a {
+    display: inline-block;
+    margin: 1.5rem;
+}
+
+/* About */
+
+.section-title {
+    text-align: center;
+    color: #C896D7;
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+}
+
+.section-message {
+    text-align: center;
+    font-size: 4rem;
+    margin: 0;
+}
+
+.title-div {
+    padding-top: 2rem;
+}
+
+.message-div {
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+}
+
+.about-img .profile-pic {
+    height: 11rem;
+    width: auto;
+    border-radius: 50%;
+    margin-right: 3rem;
+    float: left;
+    border: 2px solid #F1DF8C;
+}
+
+.about-text {
+    /* font-size: 1.5rem; */
+    /* font-size: 1.5vw; */
+    /* font-size: 1.5vmax; */
+    text-align: center;
+    font-size: 3vmin;
+    margin: 0;
+    padding: 0 15%;
+}
+
+.project-item-title {
+    text-align: center;
+    font-size: 3rem;
+    margin-top: 8rem;
+    margin-bottom: 0;
+    color:rgb(248, 233, 145)
+}
+
+.project-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+.project-img {
+    align-items: center;
+    max-height: 30rem;
+}
+
+.project-item p {
+    text-align: center;
+    font-size: 3vmin;
+    margin: 0 5rem;
+}
+
+/* Footer */
+
+.main-footer {
+    background-color:rgb(27, 27, 27);
+    text-align: center;
+    margin: 0 auto;
+}
+
+.footer-nav {
+    text-align: center;
+    font-size: 0.95rem;
+    margin-top: 3vh;
+}
+
+.footer-nav a {
+    padding: 1rem;
+}
+
+.footer-text {
+    font-weight: bold;
+    letter-spacing: 0.2rem;
+    margin: 3vh;
+}
+
+/* Landscape phone */
+@media (max-width: 768px) {
+    
+
+    .main-nav a {
+        padding: 3vw;
+        font-size: 2.5vw;
+    }
+
+    .home-name {
+        text-align: center;
+        margin: 0;
+        /* font-size: 8rem; */
+        font-size: 16vw;
+    }
+    
+    .home-info {
+        /* font-size: 2rem; */
+        font-size: 4vw;
+    }
+    
+    .pic-credit {
+        /* font-size: 1.5rem; */
+        font-size: 3vw;
+    }
+    
+    /* Contact logo size */
+    .fas, .fab {
+        /* font-size: 3.5rem; */
+        font-size: 7vw;
+    }
+    
+    .contact-logo a {
+        display: inline-block;
+        /* margin: 1.5rem; */
+        margin: 3vw;
+    }
+    
+    .nav a {
+        display: inline-block;
+        text-decoration: none;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+    }
+
+    .footer-nav {
+        text-align: center;
+        /* font-size: 0.95rem; */
+        font-size: 2vw;
+    }
+
+    .footer-nav a {
+        padding: 3vw;
+    }
+
+    .footer-text {
+        /* margin: 2rem auto; */
+        /* letter-spacing: 0.2rem; */
+        margin: auto;
+        font-size: 2vw;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-title {
+        text-align: center;
+        color: #C896D7;
+        font-size: 4vw;
+        font-weight: bold;
+        letter-spacing: 0.2rem;
+    }
+    
+    .section-message {
+        text-align: center;
+        font-size: 13vw;
+        margin: 0;
+    }
+    
+    .title-div {
+        padding-top: 3vh;
+    }
+    
+    .message-div {
+        margin: 4vw auto;
+    }
+    
+    .about-img {
+        display: flex;
+        justify-content: center;
+        margin: 2vw auto;
+    }
+
+    .about-img .profile-pic {
+        height: 20vh;
+        width: auto;
+        border-radius: 50%;
+        border: 2px solid #F1DF8C;
+        margin: 0;
+    }
+    
+    .about-text {
+        font-size: 2vh;
+        margin: 3vw auto;
+        padding: 0;
+        text-align: center;
+    }
+
+    .about-text p {
+        margin: 1vw;
+    }
+}
