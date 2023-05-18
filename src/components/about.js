@@ -5,27 +5,38 @@ import resume from "../assets/KodyYuenResume.pdf";
 const About = () => {
   return (
     <>
-      <Container fluid className="bg-dark text-light">
-        <Row className="text-center">
-          <h3 className="p-2 text-primary">ABOUT</h3>
-          <h1 className="">Hi! I'm Kody.</h1>
+      <Container fluid id="about" className="bg-dark text-light py-5">
+        <Row className="text-center mb-2">
+          <h3 className="text-primary fs-1">ABOUT</h3>
         </Row>
-        <Row>
+        <Row className="d-flex flex-wrap align-items-center">
           <Col className="col-4 d-none d-md-block">
             <Image fluid roundedCircle src={self} alt="me" />
           </Col>
-          <Col className="d-flex align-content-center align-items-center flex-wrap p-5 fs-4">
+          <Col className="text-center d-block d-lg-none p-4 fs-4">
             <p>
-              I graduated from Northeastern University with a bachelor's in
+              Hi! I'm Kody. I graduated from Northeastern University with a bachelor's in
               Computer Science. I love solving problems and finding logical
               solutions to them. I also love simplifying everyday tasks to be as
               efficient and smooth as possible.
-            </p>
-            <p>
               Currently, I am looking for a full-time job as a software
               engineer.
+              {`If you have any questions at all, take a look at my `}
+              <a href={resume} target="_blank" rel="noreferrer">
+                resume
+              </a>
+               {` and please reach out `}
+              <a href="#contact">here</a>.
             </p>
+          </Col>
+          <Col className="text-center d-none d-lg-block p-5 fs-2">
             <p>
+              Hi! I'm Kody. I graduated from Northeastern University with a bachelor's in
+              Computer Science. I love solving problems and finding logical
+              solutions to them. I also love simplifying everyday tasks to be as
+              efficient and smooth as possible.
+              Currently, I am looking for a full-time job as a software
+              engineer.
               {`If you have any questions at all, take a look at my `}
               <a href={resume} target="_blank" rel="noreferrer">
                 resume
