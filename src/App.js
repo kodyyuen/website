@@ -1,4 +1,3 @@
-import { Container } from 'react-bootstrap';
 import './App.css';
 import Home from './components/home';
 import Navigation from './components/navigation';
@@ -8,6 +7,8 @@ import { library } from '@fortawesome/fontawesome-svg-core';
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { fas } from '@fortawesome/free-solid-svg-icons';
 import Projects from './components/projects';
+import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -16,6 +17,8 @@ function App() {
       <Home/>
       <About/>
       <Projects/>
+      <Contact/>
+      <Footer/>
     </>
   );
 }
