@@ -14,10 +14,12 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 const Body = () => {
   return (
     <>
+      <Navigation />
       <Home />
       <About />
       <Projects />
       <Contact />
+      <Footer />
     </>
   );
 };
@@ -25,11 +27,9 @@ const Body = () => {
 function App() {
   return (
     <BrowserRouter>
-      <Navigation />
       <Routes>
         <Route index element={<Body />} />
       </Routes>
-      <Footer />
     </BrowserRouter>
   );
 }
