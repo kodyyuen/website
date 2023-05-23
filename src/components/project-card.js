@@ -18,7 +18,7 @@ const ProjectCard = ({ value }) => {
             <Card.Title as="h5">{title}</Card.Title>
             <Card.Text>{description}</Card.Text>
             <Card.Footer className="px-0">
-              <CardButtons svn_url={repoURL} />
+              <CardButtons repoURL={repoURL} />
             </Card.Footer>
           </Card.Body>
         </Card>
@@ -29,15 +29,6 @@ const ProjectCard = ({ value }) => {
 
 const CardButtons = ({ repoURL }) => {
   return (
-    // <div className="d-grid gap-2 d-md-block">
-    //   <a
-    //     href={repoURL}
-    //     target=" _blank"
-    //     className="btn btn-outline-secondary mx-2"
-    //   >
-    //     <FontAwesomeIcon icon="fab fa-github" /> Repo
-    //   </a>
-    // </div>
     <a
       href={repoURL}
       target=" _blank"

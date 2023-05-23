@@ -37,7 +37,7 @@ const About = () => {
                 everyday tasks to be as efficient and smooth as possible.
                 Currently, I am looking for a full-time job as a software
                 engineer.
-                {`If you have any questions at all, take a look at my `}
+                {` If you have any questions at all, take a look at my `}
                 <a href={resume} target="_blank" rel="noreferrer">
                   resume
                 </a>
