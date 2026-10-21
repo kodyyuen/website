@@ -1,5 +1,4 @@
 import { Container, Row } from "react-bootstrap";
-import resume from "../assets/KodyYuenResume.pdf";
 import SocialIcons from "./social-icons";
 
 const Contact = () => {
@@ -11,12 +10,12 @@ const Contact = () => {
         </Row>
         <Row className="px-5">
           <p>
-            If you'd like to reach out for any reason at all, I'd love to get in
-            contact! You can take a look at {`my `}
-            <a href={resume} target="_blank" rel="noreferrer">
-              resume
-            </a>{" "}
-            and connect with me through any of the links below.
+            I'm open to software engineering opportunities. To discuss a role,
+            learn more about my experience, or request my current resume,{' '}
+            <a href="mailto:work@kodyyuen.com?subject=Portfolio%20inquiry">
+              email me
+            </a>{' '}
+            or connect through the links below.
           </p>
         </Row>
         <SocialIcons />

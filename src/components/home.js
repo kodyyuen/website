@@ -34,9 +34,14 @@ const Home = () => {
             Kody Yuen
           </h1>
           <p className="display-6 fw-bold" style={{ fontSize: "1rem" }}>
-            An aspiring software engineer with a passion for efficiency and
-            simplicity.
+            Software engineer with experience in DevOps, CI/CD, and data
+            platform releases.
           </p>
+          <p className="mb-4">
+            I build software and automate workflows with a focus on efficiency
+            and simplicity. Open to software engineering opportunities.
+          </p>
+          <a href="#projects" className="btn btn-outline-light mb-3">View my work</a>
           <SocialIcons/>
         </Container>
       </Container>
